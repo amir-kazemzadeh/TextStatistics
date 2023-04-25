@@ -1,0 +1,2 @@
+C:\Dev\AdditudeTest\TextFileStatistics.pdb
+C:\Dev\AdditudeTest\TextFileStatistics.exe
