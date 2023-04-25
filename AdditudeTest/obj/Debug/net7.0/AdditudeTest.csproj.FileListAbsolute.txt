@@ -1,0 +1,15 @@
+C:\Dev\AdditudeTest\AdditudeTest\bin\Debug\net7.0\AdditudeTest.exe
+C:\Dev\AdditudeTest\AdditudeTest\bin\Debug\net7.0\AdditudeTest.deps.json
+C:\Dev\AdditudeTest\AdditudeTest\bin\Debug\net7.0\AdditudeTest.runtimeconfig.json
+C:\Dev\AdditudeTest\AdditudeTest\bin\Debug\net7.0\AdditudeTest.dll
+C:\Dev\AdditudeTest\AdditudeTest\bin\Debug\net7.0\AdditudeTest.pdb
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\AdditudeTest.csproj.AssemblyReference.cache
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\AdditudeTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\AdditudeTest.AssemblyInfoInputs.cache
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\AdditudeTest.AssemblyInfo.cs
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\AdditudeTest.csproj.CoreCompileInputs.cache
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\AdditudeTest.dll
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\refint\AdditudeTest.dll
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\AdditudeTest.pdb
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\AdditudeTest.genruntimeconfig.cache
+C:\Dev\AdditudeTest\AdditudeTest\obj\Debug\net7.0\ref\AdditudeTest.dll

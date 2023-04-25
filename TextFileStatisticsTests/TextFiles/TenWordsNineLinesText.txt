@@ -1,0 +1,9 @@
+﻿one
+two
+three
+FOUR
+fiVe
+   siX
+seven
+eight
+nine            ten

@@ -1,0 +1,2 @@
+C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\publish\win-x64\TextFileStatistics.pdb
+C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\publish\win-x64\TextFileStatistics.exe
