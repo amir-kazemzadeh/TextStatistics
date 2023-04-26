@@ -22,7 +22,7 @@ These are the general steps to get the input file and produce the outputs:
     10. Combine the top results for all files to produce overall results.
 
 Code Structure:
-The solution contains 2 projects. One that calculates the statistics and also a test project. The main project has two classes:
+The solution contains 2 projects. One that calculates the statistics and also a test project. The main project has two classes which are called by Main():
 
     1. TextReader is a static class whith a HttpClient member and a GetStreamAsync() method. This method gets the path to the as input and determines if it's a local or on the web. It then uses an appropriate method to provide a "stream" as output.
     2. TextStatistics is responsible to get a file path and the ProcessTextAsync() method uses the TextReader class above, to get a stream for the input and maintain 2 thread-safe dictionaries of type CuncurrentDictionary to keep track of all the words in the text and their frequency and length. It also keeps two counter variables to keep the number of lines and words.
