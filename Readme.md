@@ -7,7 +7,7 @@ produces the following outputs for each single text and also for all texts combi
     3. Number of lines
     4. Number of words
 
-Method:
+Method: 
 These are the general steps to get the input file and produce the outputs:
 
     1. Get one or more text files from input
