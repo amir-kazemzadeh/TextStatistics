@@ -33,7 +33,6 @@ public class TextStatistics : ITextStatistics
         this.filePath = filePath;
     }
     
-    // 
     public async Task ProcessTextAsync()
     {
         try
@@ -42,8 +41,6 @@ public class TextStatistics : ITextStatistics
             using var stream = await TextReader.GetStreamAsync(filePath);
 
             using var streamReader = new StreamReader(stream);
-
-            //using var streamReader = await TextReader.GetFileStreamAsync(filePath);
 
             while (!streamReader.EndOfStream)
             {
@@ -83,11 +80,65 @@ public class TextStatistics : ITextStatistics
         }
     }
 
+    public async Task ProcessTextReallyAsync()
+    {
+        try
+        {
+            await foreach (var line in ReadLinesAsync())
+            {
+                if (!string.IsNullOrWhiteSpace(line))
+                {
+                    //thread-safe increment for line count 
+                    Interlocked.Increment(ref lineCount);
+
+                    // Split the line into words
+                    var words = Regex.Split(line, @"[^\p{L}']+");
+
+
+                    // Increment the frequency count for each word
+                    foreach (var word in words)
+                    {
+                        if (!string.IsNullOrWhiteSpace(word))
+                        {
+                            //thread-safe increment for wordCount
+                            Interlocked.Increment(ref wordCount);
+
+                            // Increment the frequency count for this word
+                            wordFrequencies.AddOrUpdate(word.ToLowerInvariant(), 1, (k, v) => v + 1);
+
+                            // Update the list of longest words
+                            wordLengths.TryAdd(word.ToLowerInvariant(), word.Length);
+                        }
+                    }
+                }
+            }
+
+        }
+        catch (Exception ex)
+        {
+            throw new Exception($"Could not generate text statistics for file: {filePath} \nInner Exception:{ex?.InnerException.Message}");
+        }
+    }
+
+    private async IAsyncEnumerable<string> ReadLinesAsync()
+    {
+        //use a StreamReader to read the text file and set it to use Async
+        using var stream = await TextReader.GetStreamAsync(filePath);
+
+        using var streamReader = new StreamReader(stream);
+
+        while (!streamReader.EndOfStream)
+        {
+            yield return await streamReader.ReadLineAsync();
+        }
+    }
+
+
     public List<IWordFrequency> topWords(int n)
     {
         // Return the top n most frequent words
         return wordFrequencies
-            .AsParallel()
+            //.AsParallel()
             .OrderByDescending(x => x.Value)
             .Take(n)
             .Select(x => new WordFrequency(x.Key, x.Value))
@@ -98,7 +149,7 @@ public class TextStatistics : ITextStatistics
     {
         // Return the n longest words
         return wordLengths
-            .AsParallel()
+            //.AsParallel()
             .OrderByDescending(x => x.Value)
             .Take(n)
             .Select(x => x.Key)

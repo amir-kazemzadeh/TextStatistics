@@ -5,16 +5,25 @@ using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 using System.Threading.Tasks;
 using static System.Console;
+using System.Diagnostics;
 
 class Program
 {
     static async Task Main(string[] args)
     {
         HashSet<string> paths = GetPaths();
+
+        var watch = Stopwatch.StartNew();
+
         List<TextStatistics> FilesStats = await RunStatsAsync(paths);
         DisplayResults(FilesStats);
-        Console.WriteLine("\nPress Enter to close this window.");
-        Console.ReadLine();
+
+        watch.Stop();
+        WriteLine("\nElapsed milliseconds: " + watch.ElapsedMilliseconds.ToString());
+
+        WriteLine("\nPress Enter to close this window.");
+        ReadLine();
+
     }
 
 
@@ -60,7 +69,8 @@ class Program
                 TextStatistics textStatistics = new TextStatistics(path);
 
                 //calculate the statistics for the input file
-                await textStatistics.ProcessTextAsync();
+                //await textStatistics.ProcessTextAsync();
+                await textStatistics.ProcessTextReallyAsync();
 
                 results.Add(textStatistics);
             }
@@ -96,7 +106,7 @@ class Program
                 long numberOfWords = s.numberOfWords();
 
                 WriteResultsToConsole(s.filePath, topFrequentWords, topLongestWords, numberOfLines, numberOfWords);
-
+                                
                 //calculate totals
                 totalTopFrequentWords.AddRange(topFrequentWords);
                 totalTopLongestWords.AddRange(topLongestWords);
@@ -144,3 +154,4 @@ class Program
     }
 
 }
+ 

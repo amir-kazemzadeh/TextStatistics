@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3BqZbORh+iMDJxoZJNAs/pxdImRt3R9/AGAER9f77XAHRvOJxeT5guNu0I4XeNzBbr0FEJsehl3CC69UwAl2UQ==",
+  "dgSpecHash": "MwrK9s/rcMHiQaHtFdKEnHpu6+eOgRLdHSFeCIXkL/xXKi6aIncJQBZlWMaw5h6inLLkmciO9ZRQa/y+A4m0zw==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AdditudeTest\\AdditudeTest\\TextFileStatistics.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\kazem\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.0\\microsoft.aspnetcore.app.runtime.win-x64.7.0.0.nupkg.sha512",
-    "C:\\Users\\kazem\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.0.nupkg.sha512",
-    "C:\\Users\\kazem\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.0\\microsoft.netcore.app.runtime.win-x64.7.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
