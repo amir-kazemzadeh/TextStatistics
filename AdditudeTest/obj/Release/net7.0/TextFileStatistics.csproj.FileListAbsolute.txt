@@ -1,0 +1,15 @@
+C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\TextFileStatistics.exe
+C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\TextFileStatistics.deps.json
+C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\TextFileStatistics.runtimeconfig.json
+C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\TextFileStatistics.dll
+C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\TextFileStatistics.pdb
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\TextFileStatistics.csproj.AssemblyReference.cache
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\TextFileStatistics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\TextFileStatistics.AssemblyInfoInputs.cache
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\TextFileStatistics.AssemblyInfo.cs
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\TextFileStatistics.csproj.CoreCompileInputs.cache
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\TextFileStatistics.dll
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\refint\TextFileStatistics.dll
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\TextFileStatistics.pdb
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\TextFileStatistics.genruntimeconfig.cache
+C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\ref\TextFileStatistics.dll

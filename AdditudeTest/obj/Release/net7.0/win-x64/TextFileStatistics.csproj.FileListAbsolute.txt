@@ -181,7 +181,6 @@ C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\win-x64\createdump.exe
 C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\win-x64\hostfxr.dll
 C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\win-x64\hostpolicy.dll
 C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\win-x64\mscordaccore.dll
-C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\win-x64\mscordaccore_amd64_amd64_7.0.22.51805.dll
 C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\win-x64\mscordbi.dll
 C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\win-x64\mscorrc.dll
 C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\win-x64\msquic.dll
@@ -196,3 +195,4 @@ C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\win-x64\refint\TextFileStati
 C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\win-x64\TextFileStatistics.pdb
 C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\win-x64\TextFileStatistics.genruntimeconfig.cache
 C:\Dev\AdditudeTest\AdditudeTest\obj\Release\net7.0\win-x64\ref\TextFileStatistics.dll
+C:\Dev\AdditudeTest\AdditudeTest\bin\Release\net7.0\win-x64\mscordaccore_amd64_amd64_7.0.523.17405.dll

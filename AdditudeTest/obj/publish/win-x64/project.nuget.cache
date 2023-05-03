@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "J+Gtxa1w0DRLp6cH8oS94xdcU9ds4Jk/YXUQa5y1SP+9t6eGGfD9LUwx6jI9E9C6BPuxoSvY/fD5HFkIaST7LQ==",
+  "dgSpecHash": "IM43ive/AcKSIhxhHYDxCMg7UsfZ1u6Zb90FAbO8yIcPxNL3JZ8JZjscYDv/pYiW8q6jtdG3DnFH/67FmYfJ6w==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AdditudeTest\\AdditudeTest\\TextFileStatistics.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kazem\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.0\\microsoft.netcore.app.runtime.win-x64.7.0.0.nupkg.sha512",
-    "C:\\Users\\kazem\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.0.nupkg.sha512",
-    "C:\\Users\\kazem\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.0\\microsoft.aspnetcore.app.runtime.win-x64.7.0.0.nupkg.sha512"
+    "C:\\Users\\kazem\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.5\\microsoft.netcore.app.runtime.win-x64.7.0.5.nupkg.sha512",
+    "C:\\Users\\kazem\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.5.nupkg.sha512",
+    "C:\\Users\\kazem\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x64.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }
