@@ -116,11 +116,11 @@ public class TextStatistics : ITextStatistics
         }
         catch (Exception ex)
         {
-            throw new Exception($"Could not generate text statistics for file: {filePath} \nInner Exception:{ex?.InnerException.Message}");
+            throw new Exception($"Could not generate text statistics for file: {filePath} \nInner Exception:{ex.InnerException?.Message}");
         }
     }
 
-    private async IAsyncEnumerable<string> ReadLinesAsync()
+    private async IAsyncEnumerable<string?> ReadLinesAsync()
     {
         //use a StreamReader to read the text file and set it to use Async
         using var stream = await TextReader.GetStreamAsync(filePath);

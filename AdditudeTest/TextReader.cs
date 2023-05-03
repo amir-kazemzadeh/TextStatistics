@@ -25,7 +25,7 @@ public static class TextReader
 
         try
         {
-            if (Uri.TryCreate(path, UriKind.Absolute, out Uri uri) && uri.Scheme != "file")
+            if (Uri.TryCreate(path, UriKind.Absolute, out Uri? uri) && uri.Scheme != "file")
             {
                 //path is a URL
                 var response = await httpClient.GetAsync(uri, HttpCompletionOption.ResponseHeadersRead);

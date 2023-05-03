@@ -40,7 +40,7 @@ class Program
         //break when user presses Enter withour any input
         while (true)
         {
-            string? path = ReadLine().Trim().ToLower();
+            string? path = ReadLine()?.Trim().ToLower();
             if (string.IsNullOrEmpty(path)) break;
             if (paths.Contains(path)) WriteLine("Path already exxists!");
             else paths.Add(path);
